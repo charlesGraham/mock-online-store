@@ -6,6 +6,22 @@ function App() {
     {
       id: 1,
       title: 'Hats',
+    },
+    {
+      id: 1,
+      title: 'Jackets',
+    },
+    {
+      id: 1,
+      title: 'Sneakers',
+    },
+    {
+      id: 1,
+      title: 'Womens',
+    },
+    {
+      id: 1,
+      title: 'Mens',
     }
   ];
 
