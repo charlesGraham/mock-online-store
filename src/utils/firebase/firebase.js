@@ -27,10 +27,13 @@ provider.setCustomParameters({
 // Auth
 export const auth = getAuth();
 export const signInWithGooglePopup = () => signInWithPopup(auth, provider);
+export const signInWithGoogleRedirect = () => signInWithRedirect(auth, provider);
 
 // database
 export const db = getFirestore();
 
+
+// Create user
 export const createUserDocFromAuth = async (userAuth) => {
   const userDocRef = doc(db, 'users', userAuth.uid);
   console.log(userDocRef);
